@@ -462,6 +462,15 @@
   <inspection_tool class="ArrayHashCode" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ArrayInDataClass" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ArrayObjectsEquals" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocAnchorWithoutId" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocAttributeContinuation" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocDescriptionLength" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocHeadingStyle" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocHorizontalRule" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocLinkResolve" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocListingStyle" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocPageBreak" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocReferencePattern" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="AssertBetweenInconvertibleTypes" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AssertEqualsBetweenInconvertibleTypes" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AssertEqualsBetweenInconvertibleTypesTestNG" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -839,6 +848,11 @@
   <inspection_tool class="FallThroughInSwitchStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FieldCanBeLocal" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FieldMayBeFinal" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="FieldNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+    <extension name="ConstantNamingConvention" enabled="true" />
+    <extension name="ConstantWithMutableFieldTypeNamingConvention" enabled="true" />
+    <extension name="EnumeratedConstantNamingConvention" enabled="true" />
+  </inspection_tool>
   <inspection_tool class="FileEqualsUsage" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FinalPrivateMethod" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="FinalStaticMethod" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1391,6 +1405,7 @@
   <inspection_tool class="ObjectPropertyName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ObjectsEqualsCanBeSimplified" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="ObsoleteExperimentalCoroutines" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="ObsoleteKotlinJsPackages" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="OctalIntegerJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="OctalLiteral" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="OldStdlibApi" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1610,9 +1625,11 @@
   <inspection_tool class="ReactorAutomaticDebugger" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="RecursiveEqualsCall" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="RecursivePropertyAccessor" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RedundantAsSequence" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="RedundantAsync" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="RedundantCompanionReference" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="RedundantElseInIf" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="RedundantElvisReturnNull" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="RedundantEmptyInitializerBlock" enabled="false" level="INFO" enabled_by_default="false" />
   <inspection_tool class="RedundantEnumConstructorInvocation" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="RedundantExplicitType" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -2004,6 +2021,7 @@
     <option name="m_allowConstructorAsInitializer" value="false" />
     <option name="m_onlyLookAtBlocks" value="false" />
   </inspection_tool>
+  <inspection_tool class="TrailingComma" enabled="false" level="INFO" enabled_by_default="false" />
   <inspection_tool class="TrailingSpacesInProperty" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="TrivialConditionalJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="TrivialFunctionalExpressionUsage" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -2106,7 +2124,6 @@
   <inspection_tool class="UnusedImport" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnusedLabel" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnusedLambdaExpressionBody" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="UnusedMainParameter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="UnusedMessageFormatParameter" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnusedParameters" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="UnusedProperty" enabled="false" level="WARNING" enabled_by_default="false" />
