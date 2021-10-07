@@ -470,6 +470,7 @@
   <inspection_tool class="ArrayObjectsEquals" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AsciiDocAnchorWithoutId" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AsciiDocAttributeContinuation" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AsciiDocAttributeShouldBeDefined" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AsciiDocBlockMacroShouldBeInlineMacro" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AsciiDocDescriptionLength" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="AsciiDocHeadingStyle" enabled="false" level="WARNING" enabled_by_default="false" />
