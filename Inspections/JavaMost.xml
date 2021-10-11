@@ -488,6 +488,7 @@
   <inspection_tool class="CoffeeScriptSillyAssignment" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="CoffeeScriptSwitchStatementWithNoDefaultBranch" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="CoffeeScriptUnusedLocalSymbols" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CollectionsFieldAccessReplaceableByMethodCall" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="CommaExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ComplexRedundantLet" enabled="false" level="INFO" enabled_by_default="false" />
   <inspection_tool class="ComponentNotRegistered" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -553,7 +554,11 @@
   <inspection_tool class="DataClassPrivateConstructor" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DataProviderReturnType" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="DeclareParentsInspection" enabled="false" level="ERROR" enabled_by_default="false" />
-  <inspection_tool class="DefaultFileTemplate" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DefaultFileTemplate" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="CHECK_FILE_HEADER" value="true" />
+    <option name="CHECK_TRY_CATCH_SECTION" value="true" />
+    <option name="CHECK_METHOD_BODY" value="true" />
+  </inspection_tool>
   <inspection_tool class="DeferredIsResult" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="DeferredResultUnused" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DelegatesTo" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -661,7 +666,6 @@
   <inspection_tool class="EndlessStream" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="EnumEntryName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="EqualsOrHashCode" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="EqualsReplaceableByObjectsCall" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ExceptionCaughtLocallyJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExcessiveLambdaUsage" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExpectedExceptionNeverThrown" enabled="true" level="WARNING" enabled_by_default="true" />
@@ -732,6 +736,7 @@
   <inspection_tool class="GrUnnecessarySemicolon" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="GrUnresolvedAccess" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="GradleKotlinxCoroutinesDeprecation" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="GradlePackageUpdate" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="GrazieInspection" enabled="false" level="TYPO" enabled_by_default="false" />
   <inspection_tool class="GroovyAccessToStaticFieldLockedOnInstance" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="GroovyAccessibility" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -778,7 +783,6 @@
   <inspection_tool class="GroovyUnusedIncOrDec" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="GroovyVariableNotAssigned" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="GspInspection" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="Guava" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="GwtClientClassFromNonInheritedModule" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="GwtCssResourceErrors" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="GwtDefaultPackageNotRegistered" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -896,7 +900,10 @@
   <inspection_tool class="JSLastCommaInArrayLiteral" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSLastCommaInObjectLiteral" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSMethodCanBeStatic" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSMismatchedCollectionQueryUpdate" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="JSMismatchedCollectionQueryUpdate" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="queries" value="trace,write,forEach,length,size" />
+    <option name="updates" value="pop,push,shift,splice,unshift,add,insert,remove,reverse,copyWithin,fill,sort" />
+  </inspection_tool>
   <inspection_tool class="JSMissingSwitchBranches" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="JSMissingSwitchDefault" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="JSNonASCIINames" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1001,6 +1008,7 @@
   <inspection_tool class="JpaDataSourceORMDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="JpaDataSourceORMInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="JpaDomInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="JpaEntityGraphsInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="JpaEntityListenerInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="JpaEntityListenerWarningsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JpaMissingIdInspection" enabled="false" level="ERROR" enabled_by_default="false" />
@@ -1054,7 +1062,7 @@
     <option name="m_ignoreCatchParameters" value="false" />
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
     <option name="m_minLength" value="1" />
-    <option name="m_maxLength" value="30" />
+    <option name="m_maxLength" value="20" />
   </inspection_tool>
   <inspection_tool class="LoggerInitializedWithForeignClass" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="loggerFactoryMethodName" value="getLogger,getLogger,getLog,getLogger" />
@@ -1079,6 +1087,7 @@
   <inspection_tool class="MavenDuplicateDependenciesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MavenDuplicatePluginInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MavenModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="MavenPackageUpdate" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MavenParentMissedVersionInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="MavenPropertyInParent" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MavenRedundantGroupId" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1212,7 +1221,7 @@
   <inspection_tool class="ParameterNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_regex" value="[a-z][A-Za-z\d]*" />
     <option name="m_minLength" value="1" />
-    <option name="m_maxLength" value="30" />
+    <option name="m_maxLength" value="20" />
   </inspection_tool>
   <inspection_tool class="ParameterizedParametersStaticCollection" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="PathAnnotation" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1261,7 +1270,6 @@
   <inspection_tool class="QuickFixGetFamilyNameViolation" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="R8IgnoredFlags" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="RSIncorrectMimeTypeReference" enabled="false" level="ERROR" enabled_by_default="false" />
-  <inspection_tool class="RawUseOfParameterizedType" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ReactiveStreamsNullableInLambdaInTransform" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ReactiveStreamsPublisherImplementation" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ReactiveStreamsSubscriberImplementation" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1551,7 +1559,6 @@
   <inspection_tool class="SqlWithoutWhereInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StatefulEp" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StaticInitializerReferencesSubClass" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="StaticPseudoFunctionalStyleMethod" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="StaticVariableInitialization" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignorePrimitives" value="false" />
   </inspection_tool>
