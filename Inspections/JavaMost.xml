@@ -1033,6 +1033,7 @@
   <inspection_tool class="JspDirectiveInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="JspPropertiesInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="JspTagBodyContent" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="Junit5MalformedParameterized" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="KDocUnresolvedReference" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="KotlinCovariantEquals" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="KotlinDeprecation" enabled="false" level="WARNING" enabled_by_default="false" />
