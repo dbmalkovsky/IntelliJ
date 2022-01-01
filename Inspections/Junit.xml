@@ -1096,7 +1096,7 @@
   <inspection_tool class="JSValidateTypes" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="JSVoidFunctionReturnValueUsed" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSXNamespaceValidation" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
-  <inspection_tool class="JUnit5Converter" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="JUnit5Converter" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JUnitAssertToAssertJ" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JUnitDatapoint" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JUnitRule" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1241,6 +1241,7 @@
   <inspection_tool class="MVCPathVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MagicConstant" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MainFunctionReturnUnit" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="MalformedDataProvider" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MalformedFormatString" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MalformedSetUpTearDown" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="MalformedXPath" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1339,6 +1340,7 @@
   <inspection_tool class="NamespaceRecursiveInheritance" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="NamespaceUndefined" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NestedLambdaShadowedImplicitParameter" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="NewClassNamingConvention" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NewInstanceOfSingleton" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NewObjectEquality" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="NewStringBufferWithCharArgument" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1883,7 +1885,6 @@
   <inspection_tool class="TestCaseWithConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TestFunctionName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="TestMethodInProductCode" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="TestMethodWithoutAssertion" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TestNGDataProvider" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="TextBlockBackwardMigration" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="TextBlockMigration" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -2128,7 +2129,7 @@
     </option>
   </inspection_tool>
   <inspection_tool class="gwtRawAsyncCallback" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="unused" enabled="false" level="WARNING" enabled_by_default="false">
+  <inspection_tool class="unused" enabled="false" level="WARNING" enabled_by_default="false" checkParameterExcludingHierarchy="false">
     <option name="LOCAL_VARIABLE" value="true" />
     <option name="FIELD" value="true" />
     <option name="METHOD" value="true" />
