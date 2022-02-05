@@ -670,6 +670,7 @@
   <inspection_tool class="ELMethodSignatureInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ELSpecValidationInJSP" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ELValidationInJSP" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ELValidationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ES6AwaitOutsideAsyncFunction" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="ES6BindWithArrowFunction" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ES6CheckImport" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
