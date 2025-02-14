@@ -548,6 +548,7 @@
   <inspection_tool class="CommaExpressionJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="CommandLineInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="CommentedOutCode" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="CompanionObjectInExtension" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="ComparatorCombinators" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ComparatorMethodParameterNotUsed" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ComparatorResultComparison" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -689,6 +690,7 @@
   <inspection_tool class="Deprecation" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="Deprecations" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DestructuringWrongName" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DevKitPropertiesMessageValidation" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DevKitPropertiesQuotesValidation" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DialogTitleCapitalization" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DiamondCanBeReplacedWithExplicitTypeArguments" enabled="false" level="INFORMATION" enabled_by_default="false" />
@@ -850,6 +852,7 @@
   <inspection_tool class="ExtendsObject" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExtendsTagPositionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExtensionPointBeanClass" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ExtensionRegisteredAsServiceOrComponent" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="ExternalizableWithoutPublicNoArgConstructor" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExtractKtorModule" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ExtractMethodRecommender" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -897,6 +900,7 @@
   <inspection_tool class="ForLoopReplaceableByWhile" enabled="false" level="WARNING" enabled_by_default="false">
     <option name="m_ignoreLoopsWithoutConditions" value="true" />
   </inspection_tool>
+  <inspection_tool class="ForbiddenInSuspectContextMethod" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ForeignDelegate" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="FormSpellChecking" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ForwardCompatibility" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1381,6 +1385,9 @@
   <inspection_tool class="LessUnresolvedMixin" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="LessUnresolvedVariable" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="LiftReturnOrAssignment" enabled="false" level="INFO" enabled_by_default="false" />
+  <inspection_tool class="LightServiceMigrationCode" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="LightServiceMigrationXML" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="LightServiceMustBeFinal" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="ListIndexOfReplaceableByContains" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ListRemoveInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="LocalVariableName" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
@@ -1464,6 +1471,7 @@
     </option>
   </inspection_tool>
   <inspection_tool class="MismatchedJavadocCode" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="MismatchedLightServiceLevelAndCtor" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MismatchedStringBuilderQueryUpdate" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MismatchedStringCase" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="MissedExecutable" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -1669,6 +1677,7 @@
   <inspection_tool class="PhpArrayPushWithOneElementInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpArraySearchInBooleanContextInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpArrayShapeAttributeCanBeAddedInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="PhpArrayShapeCanBeAddedInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="PhpArrayToStringConversionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpArrayTraversableCanBeReplacedWithIterableInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpArrayUsedOnlyForWriteInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
@@ -1826,6 +1835,7 @@
   <inspection_tool class="PhpNullIsNotCompatibleWithParameterInspection" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="PhpNullSafeOperatorCanBeUsedInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpObjectFieldsAreOnlyWrittenInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpObjectShapeCanBeAddedInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
   <inspection_tool class="PhpOptionalBeforeRequiredParametersInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpParameterByRefIsNotUsedAsReferenceInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PhpParameterNameChangedDuringInheritanceInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
@@ -2260,6 +2270,7 @@
   <inspection_tool class="RestResourceMethodInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="RestWrongDefaultValueInspection" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="Restricted_Python_calls" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RetrievingService" enabled="false" level="ERROR" enabled_by_default="false" />
   <inspection_tool class="ReturnFromFinallyBlock" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ReturnFromFinallyBlockJS" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="ReturnSeparatedFromComputation" enabled="false" level="INFORMATION" enabled_by_default="false" />
@@ -2816,6 +2827,7 @@
     <option name="ignoreNonEmtpyLoops" value="true" />
   </inspection_tool>
   <inspection_tool class="WithStatementJS" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="WorkspaceEntityMutableField" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="WorkspaceImplAbsent" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="WorkspaceImplObsolete" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="WrapUnaryOperator" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
